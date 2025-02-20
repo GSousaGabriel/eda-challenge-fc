@@ -1,0 +1,33 @@
+
+POST http://localhost:8000/clients HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Johna Doa2",
+    "email": "johna@ja.com2"
+}
+
+###
+
+POST http://localhost:8000/accounts HTTP/1.1
+Content-Type: application/json
+
+{
+    "client_id": "9ee87440-6352-4764-8407-085a4228766b"
+}
+
+###
+
+GET http://localhost:3003/balances/cba803bb-aaf3-48b8-aa4e-2e0251240adc HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8000/transactions HTTP/1.1
+Content-Type: application/json
+
+{
+    "account_id_from": "cba803bb-aaf3-48b8-aa4e-2e0251240adc",
+    "account_id_to": "efbee365-7f99-4652-b645-53d886b1514a",
+    "amount": 50
+}
