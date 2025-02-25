@@ -3,8 +3,8 @@ POST http://localhost:8000/clients HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Johna Doa2",
-    "email": "johna@ja.com2"
+    "name": "John Doe",
+    "email": "johna@ja.com"
 }
 
 ###
@@ -13,12 +13,12 @@ POST http://localhost:8000/accounts HTTP/1.1
 Content-Type: application/json
 
 {
-    "client_id": "9ee87440-6352-4764-8407-085a4228766b"
+    "client_id": "5a36ec39-d307-49e0-ad25-11a10f8a1b06"
 }
 
 ###
 
-GET http://localhost:3003/balances/cba803bb-aaf3-48b8-aa4e-2e0251240adc HTTP/1.1
+GET http://localhost:3003/balances/b150876f-b476-4573-bcea-1dfa5f74250a HTTP/1.1
 Content-Type: application/json
 
 ###
@@ -27,7 +27,7 @@ POST http://localhost:8000/transactions HTTP/1.1
 Content-Type: application/json
 
 {
-    "account_id_from": "cba803bb-aaf3-48b8-aa4e-2e0251240adc",
-    "account_id_to": "efbee365-7f99-4652-b645-53d886b1514a",
+    "account_id_from": "2695dc3e-bcca-4ce3-9947-4c9e248d98f5",
+    "account_id_to": "b150876f-b476-4573-bcea-1dfa5f74250a",
     "amount": 50
 }

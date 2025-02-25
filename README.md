@@ -15,3 +15,5 @@ Observações:
 - Nosso objetivo com esse desafio não é corrigir seu código ou verificar a qualidade da sua aplicação, mas sim garantir que você teve o entendendimento da importância da produção e consumo de eventos.
 
 - Nosso suporte nesse desafio vai até o escopo conceitual sobre o entendimento dos eventos e não entrará no mérito da análise de seu código, e é exatamente por isso que estamos permitindo que você utilize a linguagem de programação que você ache mais conveniente.
+
+**Como executar:** Rodo o comando docker compose up, aguarde todos os containers estarem online e rode as queries do client.http para relaizar a criação de usuarios, contas e validar o balanço disponivel para cada conta.
